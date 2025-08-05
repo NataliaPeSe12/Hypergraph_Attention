@@ -13,6 +13,7 @@ This repository contains the complete pipeline for significant directed coherenc
 ## Structure
 
 - `Hyper_Attention_v2.m`: Main script that launches the entire pipeline.
+- `EEG_total.xlsx`: EEG data.
 - `run_pipeline.m`: Runs analysis for one or more subjects.
 - `setup_paths.m`: Add the necessary paths. Make sure you have **Brainstorm** installed in the specified path, or modify this feature according to your local setup. It also can include **BrainNet Viewer** to create the brain figure graphs (optional).
 - `preprocess_subjects.m`: This feature automates the preparation and segmentation of raw data in Brainstorm for each experimental subject. It is the first step in the pipeline and should be performed before connectivity analyses.
