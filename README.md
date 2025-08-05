@@ -18,7 +18,7 @@ This repository contains the complete pipeline for significant directed coherenc
 - `setup_paths.m`: Add the necessary paths. Make sure you have **Brainstorm** installed in the specified path, or modify this feature according to your local setup. It also can include **BrainNet Viewer** to create the brain figure graphs (optional).
 - `preprocess_subjects.m`: This feature automates the preparation and segmentation of raw data in Brainstorm for each experimental subject. It is the first step in the pipeline and should be performed before connectivity analyses.
 - `script_new.m`: Automatically executes all preprocessing steps for a subject in Brainstorm, from importing the raw file to generating power spectra.
-- - `compute_connectivity.m`: Performs targeted functional connectivity analysis for a subject under a specific experimental condition. The analysis is based on maximum coherence between electrode pairs.
+- `compute_connectivity.m`: Performs targeted functional connectivity analysis for a subject under a specific experimental condition. The analysis is based on maximum coherence between electrode pairs.
 - `calculate_directed_coherence.m`: Calculates directed coherence by offset with permutation testing.
 - `normalized_connectivity.m`: Calculates dissimilarities (MLV-MI, MRV-MI), creates directed graphs, and saves results.
 - `AttentionGraphMetrics.m`: Calculates centrality metrics (degree, closeness, eigenvector) and connected components.
